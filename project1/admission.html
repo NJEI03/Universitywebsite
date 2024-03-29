@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="admission.css">
+</head>
+
+    <body id="body">
+        <header id="header" class="header">
+            <h1 class="logo">Cyber <br> <span id="span">University</span></h1>
+            <div class="menu-but">
+             <nav id="nav" class="nav">
+                <a href="index.html"  ><i class="fa-solid fa-house"></i> Home</a>
+                <a href="about.html">About</a>
+                <a href="#" class="active">Admission</a>
+                <a href="testimony.html"  >Tesmonials</a>
+                <a href="index.html#FAQ">FAQ</a>
+                <!-- <a href="index.html#contact">Contact</a> -->
+             </nav>
+             <!-- <button><a href="#">Register</a></button> -->
+             <div class="bar"><i class="fa-solid fa-bars" style="color: white;" ></i></div>
+           </div>
+        </header>
+        <!-- <div class="corrector">
+
+        </div> -->
+        <!-- NOTE THE ABOVE DIV CALLED CORRECTOR IS USED TO CORRECT AN UNIDENTIFIED BUG -->
+    
+   <main>
+    <h1>Apply now</h1>
+  <section class="admission-form">
+    <!-- Admission form -->
+      
+      <div class="Container">
+        <h2>University Admission Form</h2>
+        <form action="#" method="">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="gender">Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+         
+          <label for="course">Course of Interest:</label>
+          <select id="course" name="course" required>
+            <option value=""> Select Course </option>
+            <option value="software_engineering">Software Engineering</option>
+            <option value="cybersecurity">Cybersecurity</option>
+            <option value="data_science">Data Science</option>
+            <option value="artificial_intelligence">Artificial Intelligence</option>
+          </select>
+      
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="phone">Phone Number:</label>
+          <input type="text" id="phone" name="phone" required>
+      
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" placeholder="YYYY-MM-DD" required>
+      
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" rows="4" required></textarea>
+      
+          <input type="submit" value="Submit Application">
+        </form>
+      </div>
+  </section>
+  
+
+   </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
